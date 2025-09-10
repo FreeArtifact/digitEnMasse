@@ -1,3 +1,5 @@
 ## Git Notes
 
-Test change!!!
+- Codeberg (freeeeeee)
+- Gitlab
+- Bitbucket
