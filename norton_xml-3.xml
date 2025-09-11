@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Creating a system for the storage and analysis of poems-->
+<poem POV="narrative">
+    <firstPublished year="1915"/>
+    <title>The Road Not Taken</title>
+    <author>
+        <i>Robert Frost</i>
+    </author>
+    <!--I forgot how she made the key thingy... <cap ref="1"/>?? The tags were getting MESSY at times-->
+    <content numStanzas="4">
+        <stanza>
+            <newLine syl="9"/><cap>Two</cap> roads diverged in a yellow <rym ltr="a">wood</rym>,<cma/>
+            <newLine syl="9"/><cap>And</cap> sorry <cap>I</cap> could not travel <rym ltr="b"
+                >both</rym>
+            <newLine syl="9"/><cap>And</cap> be one traveler,<cma/> long <cap>I</cap>
+            <rym ltr="a">stood</rym>
+            <newLine syl="9"/><cap>And</cap> looked down one as far as <cap>I</cap>
+            <rym ltr="a">could</rym>
+            <newLine syl="9"/><cap>To</cap> where it bent in the <rym ltr="b"
+            >undergrowth</rym>;<smc/>
+        </stanza>
+        <stanza>
+            <newLine syl="9"/><cap>Then</cap> took the other,<cma/> as just as <rym ltr="c"
+                >fair</rym>,<cma/>
+            <newLine syl="9"/><cap>And</cap> having perhaps the better <rym ltr="d">claim</rym>,<cma/>
+            <newLine syl="10"/><cap>Because</cap> it was grassy and wanted <rym ltr="c">wear</rym>;<smc/>
+            <newLine syl="8"/><cap>Though</cap> as for that the passing <rym ltr="c">there</rym>
+            <newLine syl="9"/><cap>Had</cap> worn them really about the <rym ltr="d"
+            >same</rym>,<cma/>
+        </stanza>
+        <stanza>
+            <newLine syl="9"/><cap>And</cap> both that morning equally <rym ltr="e">lay</rym>
+            <newLine syl="8"/><cap>In</cap> leaves no step had trodden <rym ltr="f">black</rym>.<prd/>
+            <newLine syl="10"/><cap>Oh</cap>, <cap>I</cap> kept the first for another <rym ltr="e"
+                >day</rym>!<exm/>
+            <newLine syl="9"/><cap>Yet</cap> knowing how way leads on to <rym ltr="e">way</rym>,<cma/>
+            <newLine syl="10"/><cap>I</cap> doubted if <cap>I</cap> should ever come <rym ltr="f"
+                >back</rym>.<prd/>
+        </stanza>
+        <stanza>
+            <newLine syl="9"/><cap>I</cap> shall be telling this with a <rym ltr="g">sigh</rym>
+            <newLine syl="8"/><cap>Somewhere</cap> ages and ages <rym ltr="h">hence</rym>:<cln/>
+            <newLine syl="9"/><cap>Two</cap> roads diverged in a wood,<cma/> and <rym ltr="g"
+                    ><cap>I</cap></rym>--<emd/>
+            <newLine syl="8"/><cap>I</cap> took the one less traveled <rym ltr="g">by</rym>,<cma/>
+            <newLine syl="9"/><cap>And</cap> that has made all the <rym ltr="h"
+            >difference</rym>.<prd/>
+        </stanza>
+    </content>
+    <!--Consider a post-text review/comment/guide if I were to come back?-->
+</poem>
