@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="bookerBallad.rnc" type="application/relax-ng-compact-syntax"?>
+<page>
+    <layer marks="typed">
+        <head>
+            <title>
+                <u>Ballad of Booker T.</u>
+            </title>
+            <author>Langston Hughes</author>
+        </head>
+    </layer>
+    <content>
+        <layer marks="typed">
+            <poem>
+                <stanza stanzaCount="1">
+                    <!-- Trying the in-line stamp method -->
+                    <!-- A shape is inherited by the most recent layer element -->
+                    <ln syl="3">
+                        <sigFig name="Booker Taliaferro Washington" occupation="educator | author | orator">Booker T.</sigFig>
+                    </ln>
+                    <ln syl="6">Was a practical man.<prd/></ln>
+                    <ln syl="6">He said, Till the soil</ln>
+                    <ln syl="5">And learn from the land.<prd/></ln>
+                    <layer marks="stamp">
+                        <ln syl="5">Let down your buck<shape boundry="no"
+                                des="Circular Library of Congress Seal" point="north"
+                            >e</shape>t</ln>
+                        <ln syl="3">Where you are.<prd/></ln>
+                        <ln syl="4">Your fate is h<shape des="Library of Congress" point="west"
+                                >e</shape>re</ln>
+                        <ln syl="4">And not afar.<prd/></ln>
+                        <ln syl="4">To help yoursel<shape des="Library of Congress"
+                                point="southwest">f</shape></ln>
+                    </layer>
+                    <ln syl="5">And your fellow man,<cma/></ln>
+                    <ln syl="3">Train your head,<cma/></ln>
+                    <ln syl="5">Your heart,<cma/>
+                        <u>and</u>
+                        <u>your</u>
+                        <u>hand</u>.<prd/></ln>
+                    <ln syl="5">For smartness alone's </ln>
+                    <ln syl="4">Surely not meet—<emd/></ln>
+                    <ln syl="8">If you haven't at the same time</ln>
+                    <ln syl="5">Got something to eat.<prd/></ln>
+                    <ln syl="5">Thus at Tuskegee</ln>
+                    <ln syl="4">He built a school</ln>
+                    <ln syl="5">With book-learning there</ln>
+                    <ln syl="5">And the workman's tool.<prd/></ln>
+                    <ln syl="4">He started out</ln>
+                    <ln syl="5">In a simple way—<emd/></ln>
+                    <ln syl="4">For yesterday</ln>
+                    <ln syl="4">Was <u>not</u> today.<prd/></ln>
+                    <ln syl="4">Sometimes he had</ln>
+                    <ln syl="6">Compromise in his talk—<emd/></ln>
+                    <ln syl="5">For a man must crawl</ln>
+                    <ln syl="5">Before he can walk—<emd/></ln>
+                    <ln syl="10">And in <place type="state">Alabama</place> in <year>'85</year></ln>
+                    <ln syl="6">A joker was lucky</ln>
+                    <ln syl="4">To be alive.<prd/></ln>
+                    <ln syl="4">But <sigFig name="Booker Taliaferro Washington" occupation="educator | author | orator">Booker
+                            T.</sigFig></ln>
+                    <ln syl="5">Was nobody's fool:<cln/></ln>
+                    <ln syl="5">You may carve a dream</ln>
+                    <ln syl="5">With an humble tool.<prd/></ln>
+                    <ln syl="5">The tallest tower</ln>
+                    <ln syl="4">Can tumble down</ln>
+                    <ln syl="6">If it be not rooted</ln>
+                    <ln syl="4">In solid ground.<prd/></ln>
+                    <ln syl="7">So,<cma/> being a far-seeing</ln>
+                    <ln syl="2">Transcript</ln>
+                    <ln syl="4">Page 2 of 2</ln>
+                    <ln syl="10">Education and Outreach Division</ln>
+                    <ln syl="4">Practical man,<cma/></ln>
+                    <ln syl="5">He said,<cma/> Train your head,<cma/></ln>
+                    <ln syl="5">Your heart,<cma/>
+                        <u>and</u>
+                        <u>your</u>
+                        <u>hand</u>.</ln>
+                    <ln syl="4">Your fate is here</ln>
+                    <ln syl="4">And not afar,<cma/></ln>
+                    <ln syl="6">So let down your bucket</ln>
+                    <ln syl="3">Where you are.<prd/></ln>
+                </stanza>
+            </poem>
+            <layer marks="typed">
+                <closing>
+                    <layer marks="signature">
+                        <shape boundry="yes" des="Langston Hughes signature" point="westTimesTwo">
+                            <shape boundry="yes" des="Langston Hughes signature" point="north">
+                                <draftVer>Final draft</draftVer>
+                            </shape>
+                            <place plName="Hollow Hills Farm" city="Monterey" state="California">Hollow Hills Farm, Monterey, California</place>
+                            <shape boundry="yes" des="Langston Hughes signature" point="east"/>
+                            <shape boundry="yes" des="Langston Hughes signature" point="south">
+                                <date when="1941-06-01">June 1, 1941</date>
+                            </shape>
+                        </shape>
+                    </layer>
+                </closing>
+            </layer>
+            <!-- Trouble placing stamp with new system cause I want to reference prev. section but that'd break through elements-->
+            <!-- I'm settling with the clunky "westTimesTwo" -->
+        </layer>
+    </content>
+</page>
