@@ -26,10 +26,10 @@
                                 des="Circular Library of Congress Seal" point="north"
                             >e</shape>t</ln>
                         <ln syl="3">Where you are.<prd/></ln>
-                        <ln syl="4">Your fate is h<shape des="Library of Congress" point="west"
+                        <ln syl="4">Your fate is h<shape boundry="no" des="Library of Congress" point="west"
                                 >e</shape>re</ln>
                         <ln syl="4">And not afar.<prd/></ln>
-                        <ln syl="4">To help yoursel<shape des="Library of Congress"
+                        <ln syl="4">To help yoursel<shape boundry="no" des="Library of Congress"
                                 point="southwest">f</shape></ln>
                     </layer>
                     <ln syl="5">And your fellow man,<cma/></ln>

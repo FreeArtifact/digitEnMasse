@@ -3,12 +3,12 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 start = page
 page = element page {(layer | content)*}
 layer = element layer {marks, anyElement*}
-anyElement = element * {(attribute * {text})* | text* | mixed{anyElement*}}
+anyElement = element * {(attribute * {text})*, mixed{anyElement*}}
 # There is no consistent post-layer rule I can define with anyElement, but I'll keep it here as experiment
 marks = attribute marks {"typed" | "signature" | "stamp"}
 head = element head {title?, author*}
 title = element title {mixed{u*}}
-author = element author {text}
+author = element author {mixed{u*}}
 
 datePattern = (xsd:date | xsd:gYearMonth | xsd:gYear)
 
@@ -25,19 +25,19 @@ emd = element emd {empty}
 u = element u {text}
 
 shape = element shape {boundry, des, point, mixed{anyElement*}}
-boundry = attribute boundry {"yes" | "no"}
+boundry = attribute boundry {text}
 des = attribute des {text}
 point = attribute point {text}
 
-place = element place {plName, city, state, text}
+place = element place {plName, city, state, mixed{u*}}
 plName = attribute plName {text}
 city = attribute city {text}
 state = attribute state {text}
 
-sigFig = element sigFig {name, occupation, text}
+sigFig = element sigFig {name, occupation, mixed{u*}}
 name = attribute name {text}
 occupation = attribute occupation {text}
 closing = element closing {(layer | shape | draftVer | date)*}
-draftVer = element draftVer {text}
-date = element date {when, text}
+draftVer = element draftVer {mixed{u*}}
+date = element date {when, mixed{u*}}
 when = attribute when {datePattern}
