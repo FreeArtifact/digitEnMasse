@@ -47,8 +47,8 @@ alt = element alt {quant, unit, text}
 quant = attribute quant {xsd:float}
 # added missing "pint" attribute
 unit = attribute unit {"cup" | "T" | "t" | "F" | "C" | "inch" | "pint"}
-# replaced step's "?" with "*"
-prep = element prep {heading, step*}
+# replaced step's "?" with "+"
+prep = element prep {heading, step+}
 # added parentheses and asterix around mixed content
 step = element step {n, mixed{(combine | equip | equipUse | ingUse)*}}
 # added missing "temp" attribute
