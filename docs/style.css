@@ -17,3 +17,19 @@ img {
     background-color:pink;
     font-size: smaller;
 }
+
+a.navbar {
+    height: 100%;
+    width: 100%;
+    padding: 4px;
+    background-color: bisque;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+a.navbar:hover{
+    transition-duration: 0.5s;
+    transform: scale(200%);
+    background-color: rgb(254, 187, 160);
+}
