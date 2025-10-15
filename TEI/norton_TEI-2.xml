@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Neutral Path</title>
+            <editor role="Technical_Editor">Jack Norton</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Extracted from the video game Undertale</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <standOff>
+      <list type="names">
+         <item>
+            <name type="reptile" xml:id="Alph">Alphys</name>
+         </item>
+         <item>
+            <objectName type="device" xml:id="Cell">Player's cellphone</objectName>
+         </item>
+      </list>
+   </standOff>
+
+   <text type="worldCore">
+      <body>
+         <div type="optionalEncounterRoom">
+            <div type="frame">
+               <post modality="written" who="#Cell">Ring...</post>
+            </div>
+            <div type="frame">
+               <kinesic who="#Alph">
+                  <desc>Worried with eyes wide</desc>
+               </kinesic>
+               <post modality="written" who="#Alph">Sorry, I... I...</post>
+            </div>
+            <div type="frame">
+               <kinesic who="#Alph">
+                  <desc>Worried with eyes wide</desc>
+               </kinesic>
+               <post modality="written" who="#Alph">I thought that...</post>
+            </div>
+            <div type="frame">
+               <kinesic who="#Alph">
+                  <desc>Uneasy look to the side</desc>
+               </kinesic>
+               <post modality="written" who="#Alph">Let's try the <lb/> right path instead.</post>
+            </div>
+            <div type="frame">
+               <post modality="written" who="#Cell">(Click...)</post>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
