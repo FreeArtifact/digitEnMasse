@@ -1,6 +1,7 @@
 body {
     /*background:papayaWhip*/
-    background: rgb(246, 242, 206);
+    background-image: radial-gradient(rgb(237, 255, 249), rgb(255, 255, 255));
+    /* background: rgb(206, 223, 246); */
     font-family: Comic-sans, Arial, Helvetica, sans-serif;
 }
 
@@ -13,23 +14,49 @@ img {
     max-width: 500px;
 }
 
-.featureBlock {
-    background-color:pink;
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* width: 1fr; */
+    /* height: 60px; */
+}
+
+.navbar {
+    display: inline-flex;
+    margin: 0px;
+} 
+
+a.navbar {
+    display: inline-flex;
+    height: 30px;
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: rgb(163, 252, 175);
+    color: black;
+    border-radius: 8%;
+    transition: 0.3s;
     font-size: smaller;
 }
 
-a.navbar {
-    height: 100%;
-    width: 100%;
-    padding: 4px;
-    background-color: bisque;
+a.navbar:visited{
     text-decoration: none;
-    border-radius: 12px;
-    transition: 0.3s;
+    color: black;
 }
 
 a.navbar:hover{
     transition-duration: 0.5s;
-    transform: scale(200%);
-    background-color: rgb(254, 187, 160);
+    transform: scale(1.05);
+    background-color: rgb(132, 215, 140);
+    /* background-image: linear-gradient(red, blue);
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+a.navbar:active{
+    transform: scale(.98);
+    background-color: rgb(106, 173, 113);
+    transition: 0.1s;
 }
