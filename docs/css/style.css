@@ -1,14 +1,17 @@
 /* header is container for nav items. They inherit display so I don't have to declare on them! */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     position: sticky;
     background-color: #f7ea9f;
+    border-bottom: .25rem solid #d4c467;
+    height: 4rem;
     /* justify = justify items along main axis (main axis horizontal by default) */
     /* align = align along cross axis */
 }
 
 body {
+    margin: 0;
     /*background:papayaWhip*/
     background-color: #ffffff;
     /* background: rgb(206, 223, 246); */
@@ -16,20 +19,33 @@ body {
     font-size: 1rem;
 }
 
-h1 {
+header h1 {
+    display: inherit;
     color: #4676A9;
     text-align: start;
+    width: 13rem;
     padding-left: 2rem;
+    padding-right: 2rem;
+    justify-content: center;
+    align-items: center;
+    /* border-right: .25rem solid #d4c467; */
+}
+
+.headDivider {
+    border: .125rem solid #d4c467;
 }
 
 h2 {
     color: #cb721c;
+    margin: 1rem;
 }
 
 img {
     width: 59%;
     max-width: 500px;
 }
+
+/* likeList section */
 
 .likeListGrid{
     display: grid;
@@ -39,6 +55,7 @@ img {
 
 .likeList {
     grid-column: 1;
+    padding: 0rem 1rem;
 }
 
 .likeListPic {
@@ -46,13 +63,18 @@ img {
     background-color: #e56ad8;
 }
 
+/* ---------- */
+
 nav {
     display: inherit;
-    width: 15rem;
-    background-color: #e56ad8;
+    width: 20rem;
+    /* background-color: #e56ad8; */
     justify-content: space-evenly;
     align-items: center;
-    /* row-gap: 1.5rem; */
+    row-gap: 5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    /* background-color: #e56ad8; */
 }
 
 nav a {
@@ -65,6 +87,7 @@ nav a {
     text-decoration: none;
     background-color: rgb(163, 252, 175);
     color: black;
+    border: .125rem solid black;
     border-radius: 8%;
     transition: 0.4s;
     font-size: smaller;
