@@ -1,49 +1,45 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <!-- Try opening this file on your local computer in a web browser (Firefox, Chrome, etc). 
-     * On Windows, go to the browser and type control + o and browse to find this file to open it.
-     * On Mac, go to the browser and type command + o and browse to find this file to open it. 
-     Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
-    -->
-    <head>
-        <!-- What's in the <head> element is a "meta" area not for display. 
-            It holds important information about the website's contents.
-            The text inside the <title> element does show in the top tab of a web browser. 
-             The <head> is where we will include info about styling the site, too. -->
-        <title>Starter HTML</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Here is a place where we can add a little styling code called CSS to this page. 
-            I used it to apply a background color to the body element.
-        -->
-        <link rel="stylesheet" type="text/css" href="style.css" />
-    </head>
-    <body>
-        <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
-        <header>
-            <h1 class="navbar">Jack Norton</h1>
-            <nav>
-                <a href="index.html" class="navbar">Home</a>
-                <a href="about.html" class="navbar">About</a>
-                <a href="gallery.html" class="navbar">Gallery</a>
-            </nav>
-        </header>
-        <h2>Brief introduction:</h2>
-        <p>My name is <em>Jack</em>, and I love...
-            <ul>
-                <li><strong>Virtual Reality:</strong> One of my favorite VR games is <a href="https://www.readyatdawn.com/">Lone Echo</a></li>
-                <li><strong>Art:</strong> I like to draw every now and then. You can find some color studies in the <a href="gallery.html">gallery</a> section!</li>
-                <li><strong>Writing and Literature:</strong> My mom loves writing poetry, and I often ask for her advice on mine</li>
-            </ul>
-        </p>
-        <hr>
-        <h2>A to-do list for all to see:</h2>
-        <ul>
-            <li>Refine navbar (make it fun and clean)</li>
-            <li>"About" page more like resume</li>
-            <li>Play around with design ideas</li>
-            <li>Come up with design theme</li>
-            <li>Give each page a sense of purpose</li>
-        </ul>
-    </body>
+<head>
+    <title>Jack's Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Jack Norton</h1>
+        <!-- Replace with logo? -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="gallery.html">Gallery</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Brief introduction:</h2>
+            <div class="likeListGrid">
+                <div class="likeList">
+                <p>My name is <em>Jack</em>, and I love...</p>
+                <ul>
+                    <li><strong>Virtual Reality:</strong> One of my favorite VR games is <a href="https://www.readyatdawn.com/">Lone Echo</a></li>
+                    <li><strong>Art:</strong> I like to draw every now and then. You can find some color studies in the <a href="gallery.html">gallery</a> section!</li>
+                    <li><strong>Writing and Literature:</strong> My mom loves writing poetry, and I often ask for her advice on mine</li>
+                </ul>
+                </div>
+                <div class="likeListPic"></div>
+            </div>
+        </section>
+    <hr>
+    <h2>A to-do list for all to see:</h2>
+    <ul>
+        <li>Refine navbar (make it fun and clean)</li>
+        <li>"About" page more like resume</li>
+        <li>Play around with design ideas</li>
+        <li>Come up with design theme</li>
+        <li>Give each page a sense of purpose</li>
+    </ul>
+    </main>
+</body>
 </html>
