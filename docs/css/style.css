@@ -3,40 +3,42 @@ header {
     display: flex;
     justify-content: flex-start;
     position: sticky;
-    background-color: #f7ea9f;
-    border-bottom: .25rem solid #d4c467;
+    background-color: #434348;
+    /* border-bottom: .25rem solid #d4c467; */
     height: 4rem;
     /* justify = justify items along main axis (main axis horizontal by default) */
     /* align = align along cross axis */
 }
 
 body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
+    color: #fff;
     /*background:papayaWhip*/
-    background-color: #ffffff;
+    background-color: #25252b;
     /* background: rgb(206, 223, 246); */
-    font-family: Comic-sans, Arial, Helvetica, sans-serif;
+    /* font-family: Comic-sans, Arial, Helvetica, sans-serif; */
     font-size: 1rem;
 }
 
 header h1 {
     display: inherit;
-    color: #4676A9;
+    color: #FF715B;
     text-align: start;
-    width: 13rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    width: 4rem;
+    padding-left: 2.5rem;
+    padding-right: 1rem;
     justify-content: center;
     align-items: center;
     /* border-right: .25rem solid #d4c467; */
 }
 
-.headDivider {
+/* .headDivider {
     border: .125rem solid #d4c467;
-}
+} */
 
 h2 {
-    color: #cb721c;
+    color: #dd853d;
     margin: 1rem;
 }
 
@@ -85,7 +87,7 @@ nav a {
     align-items: center;
     /* justify-content: center; */
     text-decoration: none;
-    background-color: rgb(163, 252, 175);
+    background-color: #1EA896;
     color: black;
     border: .125rem solid black;
     border-radius: 8%;
