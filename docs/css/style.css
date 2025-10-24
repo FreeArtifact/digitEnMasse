@@ -30,9 +30,9 @@ header h1 {
 } */
 
 h1 {
-    color: #d47a30;
+    color: #ffffff;
     font-size: 1.8rem;
-    margin: 1.5rem;
+    /* margin: 1.5rem; */
 }
 
 nav {
@@ -52,7 +52,7 @@ nav {
 nav a {
     display: inherit;
     height: 75%;
-    width: 6rem;
+    width: 6.5rem;
     justify-content: center;
     align-items: center;
     text-decoration: none;
@@ -117,11 +117,12 @@ body {
     width: 38rem;
     background-image: radial-gradient(#08010e 10%, #25252b 50%);
     transform: translate(0rem, -1.25rem);
-    z-index: 1;
+    z-index: -20;
 }
 
-pre.splash {
+.splash {
     display: inherit;
+    padding-top: 3rem;
     height: 100vh;
     width: 55vw;
     justify-content: center;
@@ -133,6 +134,35 @@ pre.splash {
     /* background-color: blue; */
 }
 
+.splashHi {
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: top;
+}
+
+.splashHi h1 {
+    font-size: 7rem;
+    color: orange;
+    font-weight: 800;
+    padding-left: 6vw;
+}
+
+.splashExcerpt {
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: right;
+    align-items: end;
+    padding-bottom: 45vh;
+    padding-right: 4vw;
+}
+
+.splashExcerpt h2 {
+    text-align: right;
+}
 /* likeList section */
 
 .likeListGrid{
@@ -156,4 +186,23 @@ pre.splash {
 img {
     width: 59%;
     max-width: 500px;
+}
+
+/* About page */
+.resumeGrid {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+/* .resumeGrid div {} */
+
+.resumeHead {
+    grid-row: 1;
+    height: 8rem;
+}
+
+.resumeEducation {
+    grid-row: 2;
 }
