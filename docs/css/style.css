@@ -24,12 +24,6 @@ header h1 {
     /* background-color: pink; */
 }
 
-header.endTitle {
-    display: inherit;
-    color: #FF715B;
-    margin-right: 1rem;
-    font-size: 1.65rem;
-}
 
 /* .headDivider {
     border: .125rem solid #d4c467;
