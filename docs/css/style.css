@@ -238,7 +238,7 @@ img {
     grid-template-columns: auto auto auto;
     grid-template-rows: 2rem;
     justify-content: center;
-    margin: 1rem;
+    margin: 1.25rem;
     /* column-gap: .25rem; */
     background-color: #434348;
 }
@@ -259,13 +259,20 @@ img {
     color: rgb(176, 123, 246);
 }
 
-.websites {
-    grid-column: 1;
+.projectsContainer {
+    margin-left: 1rem;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto;
 }
-.dimwork {
-    grid-column: 2;
+
+.websiteContainer {
+    display: flex;
 }
-.artwork {
-    grid-column: 3;
+.dimworkContainer {
+    display: flex;
+}
+.artworkContainer {
+    display: flex;
 }
 
