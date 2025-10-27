@@ -190,33 +190,6 @@ img {
 
 /* About page */
 
-
-/* .resumeGrid div {} */
-.hKnightContainer {
-    display: grid;
-    /* width: 50vw; */
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    /* border: 1rem solid black; */
-    /* background-color: blue;s */
-    margin-left: 1.5rem;
-}
-
-.hKnightContainer h1 {
-    grid-column: 1 / span 2;
-    grid-row: 1 / span 1;
-}
-
-.linkButton {
-    grid-row: 2 / span 1;
-    grid-column: 2;
-}
-
-.hKnightSum {
-    grid-row: 2 / span 1;
-    grid-column: 1;
-}
-
 .RES-Grid {
     display: grid;
     grid-template-rows: auto auto auto auto auto;
@@ -257,3 +230,42 @@ img {
     grid-column: 2;
     background-color: orange;
 }
+
+
+/* projects page ------------------- */
+.gridNav {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 2rem;
+    justify-content: center;
+    margin: 1rem;
+    /* column-gap: .25rem; */
+    background-color: #434348;
+}
+
+.gridNav a {
+    padding: 1rem;
+    background-color: #434348;
+    text-align: center;
+    align-self: center;
+    text-decoration: none;
+    color: #FF715B;
+    font-weight: 900;
+    transition: .5s;
+}
+
+.gridNav a:hover {
+    transition: .5s;
+    color: rgb(176, 123, 246);
+}
+
+.websites {
+    grid-column: 1;
+}
+.dimwork {
+    grid-column: 2;
+}
+.artwork {
+    grid-column: 3;
+}
+
