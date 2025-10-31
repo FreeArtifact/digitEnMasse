@@ -260,19 +260,22 @@ img {
 }
 
 .projectsContainer {
-    margin-left: 1rem;
+    margin: 0rem 1rem;
     display: grid;
     grid-template-rows: auto auto auto;
     grid-template-columns: auto auto;
 }
 
 .websiteContainer {
-    display: flex;
+    grid-row: 1;
+    grid-column: 1 / span 2;
 }
 .dimworkContainer {
-    display: flex;
+    grid-row: 2;
+    grid-column: 1 / span 2;
 }
 .artworkContainer {
-    display: flex;
+    grid-row: 3;
+    grid-column: 1 / span 2;
 }
 
