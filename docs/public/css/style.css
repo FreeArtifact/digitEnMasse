@@ -203,6 +203,11 @@ img {
   background-color: orange;
 }
 
+.date {
+  color: orange;
+  font-weight: bold;
+}
+
 /* projects page ------------------- */
 .gridNav {
   display: grid;
