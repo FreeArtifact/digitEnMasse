@@ -257,8 +257,8 @@ img {
 .projectsContainer {
     margin: 0rem 1rem;
     display: grid;
-    grid-template-rows: auto auto auto;
-    grid-template-columns: auto auto;
+    grid-template-rows: 60vh auto auto;
+    grid-template-columns: 1fr 1fr;
 }
 
 .websiteContainer {
@@ -272,5 +272,6 @@ img {
 .artworkContainer {
     grid-row: 3;
     grid-column: 1 / span 2;
+    justify-content: space-evenly;
 }
 
