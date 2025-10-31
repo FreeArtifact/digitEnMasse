@@ -84,10 +84,10 @@ nav {
 }
 
 nav a.link--override{
-    // border: 0;
+    border: 0;
     height: 3.25rem;
     width: 3.25rem;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .img--shadow {
@@ -145,7 +145,6 @@ body {
     height: 100vh;
     display: flex;
     justify-content: left;
-    align-items: top;
 }
 
 .splashHi h1 {
