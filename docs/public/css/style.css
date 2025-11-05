@@ -169,7 +169,7 @@ img {
   display: grid;
   grid-template-rows: auto auto auto auto auto;
   grid-template-columns: auto 15vw;
-  margin: 5rem 8rem;
+  margin: 8vh 10vw;
 }
 .resume h2 {
   color: rgb(246, 162, 84);
