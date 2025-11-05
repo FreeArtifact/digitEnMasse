@@ -63,26 +63,31 @@ nav {
     }
 
     & a:hover{
-        transition-duration: 0.4s;
-        transform: scale(1.04);
+        transition: 0.25s;
         transform: translate(-4px, 4px);
-        background-color: rgb(79, 45, 122);
+        background-color: rgb(72, 39, 116);
         box-shadow: 4px -4px black;
     }
 
     & a:active{
-        transform: scale(.99);
-        background-color: rgb(57, 7, 86);
-        box-shadow: none;
+        transform: translate(0);
+        box-shadow: 0px 0px black;
+        // background-color: rgb(57, 7, 86);
         transition: 0.1s;
     }
-}
 
-nav a.link--override{
-    border: 0;
-    height: 3.25rem;
-    width: 3.25rem;
-    border-radius: 50%;
+    & .current-link {
+        transform: translate(-2px, 2px);
+        background-color: rgb(72, 39, 116);
+        box-shadow: 2px -2px black;
+    }
+
+    & a.link--override {
+        border: 0;
+        height: 3.25rem;
+        width: 3.25rem;
+        border-radius: 50%;
+    }
 }
 
 .img--shadow {
