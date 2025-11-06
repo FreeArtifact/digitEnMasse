@@ -1,4 +1,12 @@
 /* header is container for nav items. They inherit display so I don't have to declare on them! */
+a {
+    color: #FF715B;
+
+    &:hover {
+        color: #fe8977;
+    }
+}
+
 header {
     position: sticky;
     top: 0;
@@ -111,8 +119,6 @@ body {
     justify-content: center;
     height: 100vh;
     width: 100vw;
-    /* z-index: 9999; */
-    /* background-color: #25252b; */
 }
 
 .splashBackground {
@@ -124,6 +130,7 @@ body {
     background-image: radial-gradient(#08010e 10%, #25252b 50%);
     transform: translate(0rem, -1.25rem);
     z-index: -20;
+    // I did something here a while ago and I don't have time to undo it...
 }
 
 .splash {
@@ -156,12 +163,11 @@ body {
 
 .splashExcerpt {
     width: 30vw;
-    height: 100vh;
+    height: 65vh;
     display: flex;
     /* flex-direction: column; */
     justify-content: right;
     align-items: end;
-    padding-bottom: 45vh;
     padding-right: 4vw;
 }
 
@@ -284,24 +290,80 @@ img {
     color: rgb(176, 123, 246);
 }
 
-.projectsContainer {
-    margin: 0rem 1rem;
+.projects {
+    margin: 8vh 10vw;
     display: grid;
-    grid-template-rows: 60vh auto auto;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, auto);
+
+    & div {
+        padding-bottom: 0.5rem;
+        border-bottom: 0.25rem solid #fff;
+    }
+
+    & p {
+            text-indent: 3rem;
+            line-height: 1.6;
+        }
+
+    &--right-side {
+        grid-column: 2;
+    }
+
+    &--left-side {
+        grid-column: 1;
+    }
+
+    &--row-three {
+        grid-row: 3;
+    }
+
+    &--row-four {
+        grid-row: 4;
+    }
+
+    &--header {
+        grid-column: 1 / span 2;
+        font-size: 2rem;
+    }
+    
+    // &__websites {
+    //     grid-row: 1;
+    //     grid-column: 1 / span 2;
+    // }
+
+    &__dimwork {
+        display: inherit;
+        grid-row: 1;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        column-gap: 1rem;
+    }
+
+    &__artwork {
+        display: inherit;
+        grid-row: 2;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, auto);
+        & p {
+            grid-row: 2;
+            grid-column: 1 / span 2;
+            // text-indent: 0;
+        }
+        & img {
+            width: 100%;
+        }
+    }
 }
 
-.websiteContainer {
-    grid-row: 1;
-    grid-column: 1 / span 2;
-}
-.dimworkContainer {
-    grid-row: 2;
-    grid-column: 1 / span 2;
-}
-.artworkContainer {
-    grid-row: 3;
-    grid-column: 1 / span 2;
-    justify-content: space-evenly;
-}
+.reflective-essay {
+    margin: 8vh 15vw;
+    line-height: 1.6;
+    
+    & h2 {
+        text-align: center;
+    }
 
+    & p {
+        text-indent: 3rem;
+    }
+}
