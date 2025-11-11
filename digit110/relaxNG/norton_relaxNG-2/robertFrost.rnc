@@ -1,0 +1,29 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = poem
+poem = element poem {POV, firstPublished?, title?, author*, content}
+POV = attribute POV {"firstPerson" | "secondPerson" | "thirdPerson"}
+datePattern = (xsd:date | xsd:gYearMonth | xsd:gYear)
+date = attribute date {datePattern}
+firstPublished = element firstPublished {date, empty}
+title = element title {text}
+author = element author {name, i}
+name = attribute name {text}
+i = element i {text}
+
+content = element content {numStanzas, stanza+}
+numStanzas = attribute numStanzas {xsd:integer}
+stanza = element stanza {stanLines, ln+}
+stanLines = attribute stanLines {xsd:integer}
+ln = element ln {syl, mixed{(rym | cap | cma | smc | cln | emd | prd | exm)*}}
+syl = attribute syl {xsd:integer}
+rym = element rym {ltr, (cap | text)}
+ltr = attribute ltr {xsd:string{length="1"}}
+#data type for single char
+cap = element cap {text}
+cma = element cma {empty}
+smc = element smc {empty}
+prd = element prd {empty}
+exm = element exm {empty}
+emd = element emd {empty}
+cln = element cln {empty}

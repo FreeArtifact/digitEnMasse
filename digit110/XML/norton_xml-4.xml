@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+    <layer marks="typed">
+        <head>
+            <title>
+                <u>Ballad of Booker T.</u>
+            </title>
+            <author>Langston Hughes</author>
+        </head>
+    </layer>
+    <content>
+        <layer marks="stamp">
+            <approxPos x="5/8ths page from left" y="3/4ths page from bottom">Library of Congress
+                Seal</approxPos>
+        </layer>
+        <layer marks="typed">
+            <poem>
+                <stanza stanzaCount="1">
+                    <!--not sure if I'm using the lines below correctly...-->
+                    <!--debating the self-closing vs full tags for lineation. I think pretty print may be nicer to full, but I'd have to double check-->
+                    <lineSt syl="3"/><sigFig occupation="educator | author | orator">Booker
+                        T.</sigFig>
+                    <lineSt syl="6"/>Was a practical man.<prd/>
+                    <lineSt syl="6"/>He said, Till the soil <lineSt syl="5"/>And learn from the land.<prd/>
+                    <lineSt syl="5"/>Let down your bucket <lineSt syl="3"/>Where you are.<prd/>
+                    <lineSt syl="4"/>Your fate is here <lineSt syl="4"/>And not afar.<prd/>
+                    <lineSt syl="4"/>To help yourself <lineSt syl="5"/>And your fellow man,<cma/>
+                    <lineSt syl="3"/>Train your head,<cma/>
+                    <lineSt syl="5"/>Your heart,<cma/>
+                    <u>and</u>
+                    <u>your</u>
+                    <u>hand</u>.<prd/>
+                    <lineSt syl="5"/>For smartness alone's <lineSt syl="4"/>Surely not meet—<emd/>
+                    <lineSt syl="8"/>If you haven't at the same time <lineSt syl="5"/>Got something
+                    to eat.<prd/>
+                    <lineSt syl="5"/>Thus at Tuskegee <lineSt syl="4"/>He built a school <lineSt
+                        syl="5"/>With book-learning there <lineSt syl="5"/>And the workman's tool.<prd/>
+                    <lineSt syl="4"/>He started out <lineSt syl="5"/>In a simple way—<emd/>
+                    <lineSt syl="4"/>For yesterday <lineSt syl="4"/>Was <u>not</u> today.<prd/>
+                    <lineSt syl="4"/>Sometimes he had <lineSt syl="6"/>Compromise in his talk—<emd/>
+                    <lineSt syl="5"/>For a man must crawl <lineSt syl="5"/>Before he can walk—<emd/>
+                    <lineSt syl="10"/>And in <place type="state">Alabama</place> in <year>'85</year>
+                    <lineSt syl="6"/>A joker was lucky <lineSt syl="4"/>To be alive.<prd/>
+                    <lineSt syl="4"/>But <sigFig occupation="educator | author | orator">Booker
+                        T.</sigFig>
+                    <lineSt syl="5"/>Was nobody's fool:<cln/>
+                    <lineSt syl="5"/>You may carve a dream <lineSt syl="5"/>With an humble tool.<prd/>
+                    <lineSt syl="5"/>The tallest tower <lineSt syl="4"/>Can tumble down <lineSt
+                        syl="6"/>If it be not rooted <lineSt syl="4"/>In solid ground.<prd/>
+                    <lineSt syl="7"/>So,<cma/> being a far-seeing <lineSt syl="2"/>Transcript
+                        <lineSt syl="4"/>Page 2 of 2 <lineSt syl="10"/>Education and Outreach
+                    Division <lineSt syl="4"/>Practical man,<cma/>
+                    <lineSt syl="5"/>He said,<cma/> Train your head,<cma/>
+                    <lineSt syl="5"/>Your heart,<cma/>
+                    <u>and</u>
+                    <u>your</u>
+                    <u>hand</u>. <lineSt syl="4"/>Your fate is here <lineSt syl="4"/>And not afar,<cma/>
+                    <lineSt syl="6"/>So let down your bucket <lineSt syl="3"/>Where you are.<prd/>
+                </stanza>
+            </poem>
+            <layer marks="typed">
+                <closing>
+                    <draftVer>Final draft</draftVer>, <place>Hollow Hills Farm</place>, <place
+                        type="city">Monterey</place>, <place type="state">California</place>,
+                        <date>June 1, 1941</date>. </closing>
+            </layer>
+        </layer>
+        <layer marks="signature">
+            <approxPos x="3/4ths from left" y="1/10th from bottom">Langston Hughes</approxPos>
+            <!--Positions might want a more exact/refined label as to be searchable by people-->
+        </layer>
+    </content>
+</page>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Creating a system for the storage and analysis of poems-->
+<poem POV="narrative">
+    <metadata firstPublished="1915" title="The Road Not Taken" author="Robert Frost"/>
+    <content numStanzas="4">
+        <stanza rhymeScheme="abaab">
+            <line syl="9"><cap>Two</cap> roads diverged in a yellow wood,<cma/></line>
+            <line syl="9"><cap>And</cap> sorry <cap>I</cap> could not travel both</line>
+            <line syl="9"><cap>And</cap> be one traveler,<cma/> long <cap>I</cap> stood</line>
+            <line syl="9"><cap>And</cap> looked down one as far as <cap>I</cap> could</line>
+            <line syl="9"><cap>To</cap> where it bent in the undergrowth;<smc/></line>
+        </stanza>
+        <stanza rhymeScheme="cdccd">
+            <line syl="9"><cap>Then</cap> took the other,<cma/> as just as fair,<cma/></line>
+            <line syl="9"><cap>And</cap> having perhaps the better claim,<cma/></line>
+            <line syl="10"><cap>Because</cap> it was grassy and wanted wear;<smc/></line>
+            <line syl="8"><cap>Though</cap> as for that the passing there</line>
+            <line syl="9"><cap>Had</cap> worn them really about the same,<cma/></line>
+        </stanza>
+        <stanza rhymeScheme="efeef">
+            <line syl="9"><cap>And</cap> both that morning equally lay</line>
+            <line syl="8"><cap>In</cap> leaves no step had trodden black.<prd/></line>
+            <line syl="10"><cap>Oh</cap>, <cap>I</cap> kept the first for another day!<exm/></line>
+            <line syl="9"><cap>Yet</cap> knowing how way leads on to way,<cma/></line>
+            <line syl="10"><cap>I</cap> doubted if <cap>I</cap> should ever come back.<prd/></line>
+        </stanza>
+        <stanza rhymeScheme="ghggh">
+            <line syl="9"><cap>I</cap> shall be telling this with a sigh</line>
+            <line syl="8"><cap>Somewhere</cap> ages and ages hence:<cln/></line>
+            <line syl="9"><cap>Two</cap> roads diverged in a wood,<cma/> and
+                <cap>I</cap>--<emd/></line>
+            <line syl="8"><cap>I</cap> took the one less traveled by,<cma/></line>
+            <line syl="9"><cap>And</cap> that has made all the difference.<prd/></line>
+        </stanza>
+    </content>
+</poem>
