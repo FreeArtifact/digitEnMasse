@@ -237,32 +237,6 @@ img {
 }
 
 /* projects page ------------------- */
-.gridNav {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: 2rem;
-  justify-content: center;
-  margin: 1.25rem;
-  /* column-gap: .25rem; */
-  background-color: #434348;
-}
-
-.gridNav a {
-  padding: 1rem;
-  background-color: #434348;
-  text-align: center;
-  align-self: center;
-  text-decoration: none;
-  color: #FF715B;
-  font-weight: 900;
-  transition: 0.5s;
-}
-
-.gridNav a:hover {
-  transition: 0.5s;
-  color: rgb(176, 123, 246);
-}
-
 .projects {
   margin: 8vh 10vw;
   display: grid;
@@ -313,12 +287,20 @@ img {
   width: 100%;
 }
 
+.content h2 {
+  text-align: center;
+}
+
+.corpus {
+  margin: 8vh 10vw;
+}
+.corpus img {
+  max-width: 38vw;
+}
+
 .reflective-essay {
   margin: 8vh 15vw;
   line-height: 1.6;
-}
-.reflective-essay h2 {
-  text-align: center;
 }
 .reflective-essay p {
   text-indent: 3rem;
