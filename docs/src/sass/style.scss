@@ -355,25 +355,46 @@ img {
     }
 }
 
-// Digit page
+// Digit Corpus page
 .content {
-    // & div:after {
-    //     padding-bottom: 0.5rem;
-    //     border-bottom: 0.25rem solid #fff;
-    // }
-    & h2 {
-        text-align: center;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vh 2vw;
 
     & .corpus {
-    margin: 8vh 2vw;
+        display: grid;
+        grid-auto-rows: auto;
+        
+        &__header {text-align: center;}
+        &__intro-text {grid-row: 1;}
 
-        & p {
-            max-width: 44vw;
-        }
+        &__row-one-title {grid-row: 2;}
+        &__row-two-title {grid-row: 4;}
+        &__row-three-title {grid-row: 7;}
+        
+        &--img-row-one {grid-row: 3; display: flex; justify-content: space-evenly;}
+        &--img-row-two {grid-row: 5; display: flex; justify-content: space-evenly;}
+        &--img-row-three {grid-row: 8; display: flex; justify-content: space-evenly;}
+
+        &__text-2a {grid-row: 6; max-width: 50vw;}
+        &__text-3a {grid-row: 9; max-width: 50vw;}
 
         & img {
-            max-width: 46vw;
+            max-width: 42vw;
+            transition: .7s;
+
+            &:active {
+                transform: scale(1.25);
+            }
+        }
+
+        &--left-origin {
+            transform-origin: bottom left;
+        }
+
+        &--right-origin {
+            transform-origin: bottom right;
         }
     }
 
