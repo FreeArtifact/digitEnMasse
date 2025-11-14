@@ -290,18 +290,19 @@ img {
 .content h2 {
   text-align: center;
 }
-
-.corpus {
-  margin: 8vh 10vw;
+.content .corpus {
+  margin: 8vh 2vw;
 }
-.corpus img {
-  max-width: 38vw;
+.content .corpus p {
+  max-width: 44vw;
 }
-
-.reflective-essay {
+.content .corpus img {
+  max-width: 46vw;
+}
+.content .reflective-essay {
   margin: 8vh 15vw;
   line-height: 1.6;
 }
-.reflective-essay p {
+.content .reflective-essay p {
   text-indent: 3rem;
 }
