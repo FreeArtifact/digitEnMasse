@@ -287,6 +287,17 @@ img {
   width: 100%;
 }
 
+.temp-nav {
+  text-align: center;
+}
+.temp-nav a {
+  padding: 0.25rem;
+}
+
+.digit-landing h2 {
+  font-size: 3rem;
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -341,6 +352,12 @@ img {
 }
 .content .corpus img:active {
   transform: scale(1.25);
+}
+.content .corpus img.corpus--left-origin:active + .corpus--right-origin {
+  transform: scale(0.75);
+}
+.content .corpus img.corpus--left-origin:has(+ .corpus--right-origin:active) {
+  transform: scale(0.75);
 }
 .content .corpus--left-origin {
   transform-origin: bottom left;
