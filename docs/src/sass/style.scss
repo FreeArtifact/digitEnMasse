@@ -355,6 +355,21 @@ img {
     }
 }
 
+// Digit page
+.temp-nav {
+    text-align: center;
+    
+    & a {
+        padding: 0.25rem;
+    }
+}
+
+.digit-landing {
+    & h2 {
+        font-size: 3rem;
+    }
+}
+
 // Digit Corpus page
 .content {
     display: flex;
@@ -387,6 +402,14 @@ img {
             &:active {
                 transform: scale(1.25);
             }
+
+            &.corpus--left-origin:active + .corpus--right-origin {
+                transform: scale(.75);
+            }
+
+            &.corpus--left-origin:has(+ .corpus--right-origin:active) {
+                transform: scale(.75);
+            }
         }
 
         &--left-origin {
@@ -397,7 +420,7 @@ img {
             transform-origin: bottom right;
         }
     }
-
+// Digit reflective essay
     & .reflective-essay {
         margin: 8vh 15vw;
         line-height: 1.6;
