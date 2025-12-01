@@ -389,15 +389,6 @@ img {
         grid-column: 1 / span 2;
     }
 
-    & img {
-        place-self: center;
-        width: 60vw;
-    }
-
-    & img.graph-photo {
-        width: 30vw;
-    }
-
     & p{
         grid-column: 1 / span 2;
         margin-left: 4vw;
@@ -422,8 +413,14 @@ img {
         opacity: 0.25;
     }
 
+    & img.graph-photo {
+        width: 30vw;
+    }
+
     & img {
-        max-width: 42vw;
+        place-self: center;
+        width: 60vw;
+        // max-width: 42vw;
         transition: .7s;
 
         &:active {

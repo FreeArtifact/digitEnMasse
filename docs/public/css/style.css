@@ -314,13 +314,6 @@ img {
 .content h3, .content h2:nth-child(odd) {
   grid-column: 1/span 2;
 }
-.content img {
-  place-self: center;
-  width: 60vw;
-}
-.content img.graph-photo {
-  width: 30vw;
-}
 .content p {
   grid-column: 1/span 2;
   margin-left: 4vw;
@@ -340,8 +333,12 @@ img {
 .content h3:has(+ img:active) {
   opacity: 0.25;
 }
+.content img.graph-photo {
+  width: 30vw;
+}
 .content img {
-  max-width: 42vw;
+  place-self: center;
+  width: 60vw;
   transition: 0.7s;
 }
 .content img:active {
