@@ -478,3 +478,32 @@ img {
     }
 
 
+.con-analysis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 1.5rem;
+    
+    & h3 {
+        font-size: 2rem;
+    }
+
+    &__head {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        & img {
+            height: 50vh;
+            width: auto;
+            border: 0.25rem groove #fe8977;
+        }
+
+        & h2 {
+            color: #FF715B;
+            font-size: 2.25rem;
+            margin-left: 2rem;
+        }
+    }
+}
