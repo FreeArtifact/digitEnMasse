@@ -364,3 +364,28 @@ img {
 .reflective-essay p {
   text-indent: 3rem;
 }
+
+.con-analysis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1.5rem;
+}
+.con-analysis h3 {
+  font-size: 2rem;
+}
+.con-analysis__head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.con-analysis__head img {
+  height: 50vh;
+  width: auto;
+  border: 0.25rem groove #fe8977;
+}
+.con-analysis__head h2 {
+  color: #FF715B;
+  font-size: 2.25rem;
+  margin-left: 2rem;
+}
