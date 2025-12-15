@@ -113,67 +113,66 @@ body {
     font-size: 1rem;
 }
 
+.main-index {
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    width: 100vw;
+
+    & h1 {
+        width: 80vw;
+        height: 22vh;
+        display: flex;
+        justify-content: left;
+        font-size: 7rem;
+        color: orange;
+        font-weight: 800;
+        padding-left: 6vw;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+}
+
 .splashContainer {
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
+    justify-content: space-between;
+    height: 60vh;
     width: 100vw;
+
+    & pre.splash {
+        display: inherit;
+        height: 40vh;
+        width: 40vw;
+        align-items: center;
+        margin-left: 25vw;
+        font-family: monospace;
+        background-image: radial-gradient(#08010e 30%, #25252b 70%);
+        transform: scale(1.185);
+        flex-basis: auto;
+        // font-size: .75rem;
+        z-index: 8;
+    }
+
+    & h2 {
+        width: 20rem;
+        // transform: translate(15vw, 10vh);
+        // margin-right: -12vw;
+        // margin-left: 15vw;
+        text-align: right;
+        align-self: flex-end;
+        font-size: 1.8rem;
+        margin-right: 2rem;
+    }
 }
 
-.splashBackground {
+.commons {
     position: absolute;
-    display: inherit;
-    border-radius: 100%;
-    height: 48rem;
-    width: 38rem;
-    background-image: radial-gradient(#08010e 10%, #25252b 50%);
-    transform: translate(0rem, -1.25rem);
-    z-index: -20;
-    // I did something here a while ago and I don't have time to undo it...
+    bottom: 1rem;
+    font-size: .8rem;
+    margin-left: 1rem;
 }
 
-.splash {
-    display: inherit;
-    padding-top: 3rem;
-    height: 100vh;
-    width: 55vw;
-    justify-content: center;
-    align-items: center;
-    font-family: monospace;
-    /* background-image: radial-gradient(#08010e, #25252b, #25252b); */
-    font-size: .75rem;
-    z-index: 8;
-    /* background-color: blue; */
-}
-
-.splashHi {
-    width: 80vw;
-    height: 100vh;
-    display: flex;
-    justify-content: left;
-}
-
-.splashHi h1 {
-    font-size: 7rem;
-    color: orange;
-    font-weight: 800;
-    padding-left: 6vw;
-}
-
-.splashExcerpt {
-    width: 30vw;
-    height: 65vh;
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: right;
-    align-items: end;
-    padding-right: 4vw;
-}
-
-.splashExcerpt h2 {
-    text-align: right;
-}
 
 img {
     width: 59%;
