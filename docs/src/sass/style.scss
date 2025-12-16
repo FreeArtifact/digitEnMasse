@@ -476,6 +476,15 @@ img {
         }
     }
 
+figcaption {
+    text-align: center;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
 
 .con-analysis {
     display: flex;
@@ -483,15 +492,33 @@ img {
     justify-content: center;
 
     margin: 1.5rem;
-    
+
     & h3 {
         font-size: 2rem;
+        color: #fe8977;
+        margin-bottom: 0rem;
+    }
+
+    & img {
+        max-height: 50vh;
+        float: right;
+        width: auto; 
+    }
+
+    & p {
+        width: 42vw;
+        float: left;
+        margin-bottom: 3rem;
+        font-size: 1.1rem;
+        margin-left: 0.5rem;
     }
 
     &__head {
         display: flex;
         flex-direction: row;
         align-items: center;
+        justify-content: center;
+        margin: 4rem 0;
         
         & img {
             height: 50vh;
@@ -503,6 +530,76 @@ img {
             color: #FF715B;
             font-size: 2.25rem;
             margin-left: 2rem;
+        }
+    }
+
+    &__intro {
+        margin-left: 2rem;
+        & img {
+            margin-right: 2rem;
+            height: 45vh; 
+        }
+    }
+
+    &__characters {
+        margin-left: 2rem;
+        & img {
+            margin-right: 2rem;
+            height: 45vh; 
+        }
+    }
+
+    &__items {
+        margin-left: 2rem;
+        & img {
+            margin-right: 2rem;
+            height: 40vh; 
+        }
+    }
+
+    &__challenges {
+        margin-left: 2rem;
+        & img {
+            margin-right: 2rem;
+            height: 38vh; 
+        }
+    }
+
+    &__symbolism {
+        margin-left: 2rem;
+        & img {
+            margin-right: 2rem;
+            height: 45vh; 
+        }
+    }
+
+    &__kumu {
+        margin-left: 3rem;
+        & iframe {
+            margin-right: 3rem;
+            width: 50vw;
+            height: 60vh; 
+        }
+        & p {
+            width: 30vw;
+            padding-right: 2rem;
+        }
+    }
+
+    &__conclusion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 4rem 0;
+        & img {
+            height: 60vh; 
+            margin-bottom: 1rem;
+        }
+
+        & p {
+            font-size: 1.75rem;
+            width: 60vw;
+            text-align: center;
         }
     }
 }
