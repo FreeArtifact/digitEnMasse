@@ -1,0 +1,88 @@
+body {
+    margin: 2rem;
+    background-color: rgb(253, 238, 219);
+}
+
+h1 {
+    text-shadow: 0px 0px 40px red;
+    color: darkred;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    margin-top: 3rem;
+    margin-bottom: 0.75rem;
+    text-shadow: 0px 0px 20px red;
+    color: darkred;
+}
+
+p {
+    width: 60vw;
+    padding-left: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    text-shadow: 0px 0px 10px red;
+    color: darkred;
+    transition: .5s;
+}
+
+a:hover {
+    text-shadow: 0px 0px 10px darkred;
+    color: black;
+}
+
+tr {
+    margin-bottom: 2rem;
+}
+
+td {
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.table-tech {
+    color: blue;
+}
+
+.tech {
+    color: blue;
+}
+
+.table-loc {
+    color: green;
+}
+
+.loc {
+    color: green;
+}
+
+.table-person {
+    color: indigo;
+    text-align: left;
+}
+
+.person {
+    color: indigo;
+}
+
+.date {
+    font-weight: bold;
+    color: orange;
+}
+
+.time {
+    font-weight: bold;
+    color: orangered;
+}
+
+.menu-top {
+    position: sticky;
+    float: right;
+    top: 1rem;
+    width: 0;
+    transform: translateX(-11rem);
+    white-space: nowrap;
+}
