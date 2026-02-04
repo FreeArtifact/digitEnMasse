@@ -1,0 +1,33 @@
+0. Replace special characters
+	(doesn't have <|>)
+	Find: &
+	Replace: &amp;
+
+1. Delete first line
+	Find: ^title\syear\scountry\sruntime\n
+	Replace: 
+
+2. Surround lines with movie tag
+	Find: ^.*
+	Replace: <movie>\0</movie>
+
+3. Surround with title tag
+	Find: (<movie>)(.+?)(\t)
+	Replace: \1<title>\2</title>
+
+4. Surround year tag
+	Find: (</title>)([0-9]+)
+	Replace: \1<year>\2</year>
+
+5. Country tag
+	Find: (</year>)(\s)(.+?)(\t)
+	Replace: \1<country>\3</country>
+
+6. Runtime tag
+	Find: [0-9]+\smin
+	Replace: [0-9]+\smin
+
+7. Surround everything with xml tag
+	Enable dot matches all
+	Find: ^.*   
+	Replace: <xml>\0</xml>
