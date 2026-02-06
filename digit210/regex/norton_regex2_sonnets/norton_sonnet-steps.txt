@@ -1,0 +1,19 @@
+1. Surround sonnets
+	Find:(\n\n +(.+)\n\n)
+	Replace:\n  </sonnet>\n\n  <sonnet number="\2">\n\n
+1a. Surround first roman numeral
+	Find: (I)\n
+	Replace:  <sonnet number="\1">\n
+2. Add lines to everything
+	Find:\s(.+)
+	Replace:<line>\1</line>\n
+2a. Remove lines from sonnet
+	Find:<line>\s*(<sonnet.*>)</line>
+	Replace:\1
+3. Discover there's no closing sonnet tag at bottom and close it
+	Find:cools not love.</line>
+	Replace:\0\n</sonnet>
+4. Wrap everything in xml
+	Turn on dot matches all
+	Find:(.*)
+	Replace:<xml>\0</xml>
