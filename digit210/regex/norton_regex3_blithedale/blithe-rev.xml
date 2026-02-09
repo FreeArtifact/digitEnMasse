@@ -1,4 +1,4 @@
-﻿The Blithedale Romance
+﻿<book>The Blithedale Romance
 
 
 by
@@ -9,41 +9,37 @@ Nathaniel Hawthorne
 
 
 Table of Contents
-
-      I.  OLD MOODIE
-     II.  BLITHEDALE
-    III.  A KNOT OF DREAMERS
-     IV.  THE SUPPER-TABLE
-      V.  UNTIL BEDTIME
-     VI.  COVERDALE'S SICK CHAMBER
-    VII.  THE CONVALESCENT
-   VIII.  A MODERN ARCADIA
-     IX.  HOLLINGSWORTH, ZENOBIA, PRISCILLA
-      X.  A VISITOR FROM TOWN
-     XI.  THE WOOD-PATH
-    XII.  COVERDALE'S HERMITAGE
-   XIII.  ZENOBIA'S LEGEND
-    XIV.  ELIOT'S PULPIT
-     XV.  A CRISIS
-    XVI.  LEAVE-TAKINGS
-   XVII.  THE HOTEL
-  XVIII.  THE BOARDING-HOUSE
-    XIX.  ZENOBIA'S DRAWING-ROOM
-     XX.  THEY VANISH
-    XXI.  AN OLD ACQUAINTANCE
-   XXII.  FAUNTLEROY
-  XXIII.  A VILLAGE HALL
-   XXIV.  THE MASQUERADERS
-    XXV.  THE THREE TOGETHER
-   XXVI.  ZENOBIA AND COVERDALE
-  XXVII.  MIDNIGHT
- XXVIII.  BLITHEDALE PASTURE
-   XXIX.  MILES COVERDALE'S CONFESSION
-
-
-
-I. OLD MOODIE
-
+<title>I.  OLD MOODIE</title>
+<title>II.  BLITHEDALE</title>
+<title>III.  A KNOT OF DREAMERS</title>
+<title>IV.  THE SUPPER-TABLE</title>
+<title>V.  UNTIL BEDTIME</title>
+<title>VI.  COVERDALE'S SICK CHAMBER</title>
+<title>VII.  THE CONVALESCENT</title>
+<title>VIII.  A MODERN ARCADIA</title>
+<title>IX.  HOLLINGSWORTH, ZENOBIA, PRISCILLA</title>
+<title>X.  A VISITOR FROM TOWN</title>
+<title>XI.  THE WOOD-PATH</title>
+<title>XII.  COVERDALE'S HERMITAGE</title>
+<title>XIII.  ZENOBIA'S LEGEND</title>
+<title>XIV.  ELIOT'S PULPIT</title>
+<title>XV.  A CRISIS</title>
+<title>XVI.  LEAVE-TAKINGS</title>
+<title>XVII.  THE HOTEL</title>
+<title>XVIII.  THE BOARDING-HOUSE</title>
+<title>XIX.  ZENOBIA'S DRAWING-ROOM</title>
+<title>XX.  THEY VANISH</title>
+<title>XXI.  AN OLD ACQUAINTANCE</title>
+<title>XXII.  FAUNTLEROY</title>
+<title>XXIII.  A VILLAGE HALL</title>
+<title>XXIV.  THE MASQUERADERS</title>
+<title>XXV.  THE THREE TOGETHER</title>
+<title>XXVI.  ZENOBIA AND COVERDALE</title>
+<title>XXVII.  MIDNIGHT</title>
+<title>XXVIII.  BLITHEDALE PASTURE</title>
+<title>XXIX.  MILES COVERDALE'S CONFESSION</title>
+<chapter>
+<title>I. OLD MOODIE</title>
 The evening before my departure for Blithedale, I was returning to my
 bachelor apartments, after attending the wonderful exhibition of the
 Veiled Lady, when an elderly man of rather shabby appearance met me in
@@ -167,11 +163,9 @@ taken.  It was nothing short of midnight when I went to bed, after
 drinking a glass of particularly fine sherry on which I used to pride
 myself in those days.  It was the very last bottle; and I finished it,
 with a friend, the next forenoon, before setting out for Blithedale.
-
-
-
-II. BLITHEDALE
-
+</chapter>
+<chapter>
+<title>II. BLITHEDALE</title>
 There can hardly remain for me (who am really getting to be a frosty
 bachelor, with another white hair, every week or so, in my mustache),
 there can hardly flicker up again so cheery a blaze upon the hearth, as
@@ -320,11 +314,9 @@ and even encouraged its constant use; which, in fact, was thus far
 appropriate, that our Zenobia, however humble looked her new
 philosophy, had as much native pride as any queen would have known what
 to do with.
-
-
-
-III. A KNOT OF DREAMERS
-
+</chapter>
+<chapter>
+<title>III. A KNOT OF DREAMERS</title>
 Zenobia bade us welcome, in a fine, frank, mellow voice, and gave each
 of us her hand, which was very soft and warm.  She had something
 appropriate, I recollect, to say to every individual; and what she said
@@ -601,11 +593,9 @@ Zenobia turned, sidelong, a strange kind of a glance upon me; but,
 before I could make out what it meant, we had entered the kitchen,
 where, in accordance with the rustic simplicity of our new life, the
 supper-table was spread.
-
-
-
-IV. THE SUPPER-TABLE
-
+</chapter>
+<chapter>
+<title>IV. THE SUPPER-TABLE</title>
 The pleasant firelight!  I must still keep harping on it.  The kitchen
 hearth had an old-fashioned breadth, depth, and spaciousness, far
 within which lay what seemed the butt of a good-sized oak-tree, with
@@ -879,11 +869,9 @@ kitchen, and take the cow-breath at milking time; and, in a week or
 two, she'll begin to look like a creature of this world."
 
 So we sat down again to supper, and Priscilla along with us.
-
-
-
-V. UNTIL BEDTIME
-
+</chapter>
+<chapter>
+<title>V. UNTIL BEDTIME</title>
 Silas Foster, by the time we concluded our meal, had stript off his
 coat, and planted himself on a low chair by the kitchen fire, with a
 lapstone, a hammer, a piece of sole leather, and some waxed-ends, in
@@ -1099,11 +1087,9 @@ amid tufts of leafless trees, but reappearing on the hither side, until
 it swept across our doorstep.
 
 How cold an Arcadia was this!
-
-
-
-VI. COVERDALE'S SICK-CHAMBER
-
+</chapter>
+<chapter>
+<title>VI. COVERDALE'S SICK-CHAMBER</title>
 The horn sounded at daybreak, as Silas Foster had forewarned us, harsh,
 uproarious, inexorably drawn out, and as sleep-dispelling as if this
 hard-hearted old yeoman had got hold of the trump of doom.
@@ -1428,11 +1414,9 @@ women to take the gruel in charge?  Whatever else might be her gifts,
 Nature certainly never intended Zenobia for a cook.  Or, if so, she
 should have meddled only with the richest and spiciest dishes, and such
 as are to be tasted at banquets, between draughts of intoxicating wine.
-
-
-
-VII. THE CONVALESCENT
-
+</chapter>
+<chapter>
+<title>VII. THE CONVALESCENT</title>
 As soon as my incommodities allowed me to think of past occurrences, I
 failed not to inquire what had become of the odd little guest whom
 Hollingsworth had been the medium of introducing among us.  It now
@@ -1710,11 +1694,9 @@ the very core of it as with the fangs of an adder.  I wondered whether
 it were possible that Hollingsworth could have watched by my bedside,
 with all that devoted care, only for the ulterior purpose of making me
 a proselyte to his views!
-
-
-
-VIII. A MODERN ARCADIA
-
+</chapter>
+<chapter>
+<title>VIII. A MODERN ARCADIA</title>
 May-day--I forget whether by Zenobia's sole decree, or by the unanimous
 vote of our community--had been declared a movable festival. It was
 deferred until the sun should have had a reasonable time to clear away
@@ -2074,11 +2056,9 @@ Zenobia and Priscilla!  These, I believe (unless my unworthy self might
 be reckoned for a third), were the only disciples of his mission; and I
 spent a great deal of time, uselessly, in trying to conjecture what
 Hollingsworth meant to do with them--and they with him!
-
-
-
-IX. HOLLINGSWORTH, ZENOBIA, PRISCILLA
-
+</chapter>
+<chapter>
+<title>IX. HOLLINGSWORTH, ZENOBIA, PRISCILLA</title>
 It is not, I apprehend, a healthy kind of mental occupation to devote
 ourselves too exclusively to the study of individual men and women. If
 the person under examination be one's self, the result is pretty
@@ -2469,11 +2449,9 @@ Twist these words how I might, they offered no very satisfactory
 import.  It seemed hardly probable that Hollingsworth should care about
 educating the public taste in the department of cottage architecture,
 desirable as such improvement certainly was.
-
-
-
-X. A VISITOR FROM TOWN
-
+</chapter>
+<chapter>
+<title>X. A VISITOR FROM TOWN</title>
 Hollingsworth and I--we had been hoeing potatoes, that forenoon, while
 the rest of the fraternity were engaged in a distant quarter of the
 farm--sat under a clump of maples, eating our eleven o'clock lunch,
@@ -2726,11 +2704,9 @@ look, as from a mistress to a dependant.  Old Moodie shook his head;
 and again and again I saw him shake it, as he withdrew along the road;
 and at the last point whence the farmhouse was visible, he turned and
 shook his uplifted staff.
-
-
-
-XI. THE WOOD-PATH
-
+</chapter>
+<chapter>
+<title>XI. THE WOOD-PATH</title>
 Not long after the preceding incident, in order to get the ache of too
 constant labor out of my bones, and to relieve my spirit of the
 irksomeness of a settled routine, I took a holiday.  It was my purpose
@@ -3020,11 +2996,9 @@ nor mortals might desire my presence, I remained pretty near the verge
 of the woodlands.  My position was off the track of Zenobia's customary
 walk, yet not so remote but that a recognized occasion might speedily
 have brought me thither.
-
-
-
-XII. COVERDALE'S HERMITAGE
-
+</chapter>
+<chapter>
+<title>XII. COVERDALE'S HERMITAGE</title>
 Long since, in this part of our circumjacent wood, I had found out for
 myself a little hermitage.  It was a kind of leafy cave, high upward
 into the air, among the midmost branches of a white-pine tree. A wild
@@ -3255,11 +3229,9 @@ was as if it said, "Hush!  Hush!" and I resolved that to no mortal
 would I disclose what I had heard.  And, though there might be room for
 casuistry, such, I conceive, is the most equitable rule in all similar
 conjunctures.
-
-
-
-XIII. ZENOBIA'S LEGEND
-
+</chapter>
+<chapter>
+<title>XIII. ZENOBIA'S LEGEND</title>
 The illustrious Society of Blithedale, though it toiled in downright
 earnest for the good of mankind, yet not unfrequently illuminated its
 laborious life with an afternoon or evening of pastime.  Picnics under
@@ -3627,11 +3599,9 @@ Her nerves being none of the strongest, Priscilla hardly recovered her
 equanimity during the rest of the evening.  This, to be sure, was a
 great pity; but, nevertheless, we thought it a very bright idea of
 Zenobia's to bring her legend to so effective a conclusion.
-
-
-
-XIV. ELIOT'S PULPIT
-
+</chapter>
+<chapter>
+<title>XIV. ELIOT'S PULPIT</title>
 Our Sundays at Blithedale were not ordinarily kept with such rigid
 observance as might have befitted the descendants of the Pilgrims,
 whose high enterprise, as we sometimes flattered ourselves, we had
@@ -3989,11 +3959,9 @@ pasture land, and beheld them standing together, in the light of
 sunset, just on the spot where, according to the gossip of the
 Community, they meant to build their cottage.  Priscilla, alone and
 forgotten, was lingering in the shadow of the wood.
-
-
-
-XV. A CRISIS
-
+</chapter>
+<chapter>
+<title>XV. A CRISIS</title>
 Thus the summer was passing away,--a summer of toil, of interest, of
 something that was not pleasure, but which went deep into my heart, and
 there became a rich experience.  I found myself looking forward to
@@ -4272,11 +4240,9 @@ again, repairing the stone fence.  Hollingsworth, I observed, wrought
 like a Titan; and, for my own part, I lifted stones which at this
 day--or, in a calmer mood, at that one--I should no more have thought
 it possible to stir than to carry off the gates of Gaza on my back.
-
-
-
-XVI. LEAVE-TAKINGS
-
+</chapter>
+<chapter>
+<title>XVI. LEAVE-TAKINGS</title>
 A few days after the tragic passage-at-arms between Hollingsworth and
 me, I appeared at the dinner-table actually dressed in a coat, instead
 of my customary blouse; with a satin cravat, too, a white vest, and
@@ -4535,11 +4501,9 @@ men, women, and livestock, save only these four porkers, are bedevilled
 with one grief or another; they alone are happy,--and you mean to cut
 their throats and eat them!  It would be more for the general comfort
 to let them eat us; and bitter and sour morsels we should be!"
-
-
-
-XVII. THE HOTEL
-
+</chapter>
+<chapter>
+<title>XVII. THE HOTEL</title>
 Arriving in town (where my bachelor-rooms, long before this time, had
 received some other occupant), I established myself, for a day or two,
 in a certain, respectable hotel.  It was situated somewhat aloof from
@@ -4773,11 +4737,9 @@ expected her to alight directly on my window-sill.  In the latter part
 of her course, however, she swerved aside, flew upward, and vanished,
 as did, likewise, the slight, fantastic pathos with which I had
 invested her.
-
-
-
-XVIII. THE BOARDING-HOUSE
-
+</chapter>
+<chapter>
+<title>XVIII. THE BOARDING-HOUSE</title>
 The next day, as soon as I thought of looking again towards the
 opposite house, there sat the dove again, on the peak of the same
 dormer window!  It was by no means an early hour, for the preceding
@@ -4975,11 +4937,9 @@ interval between the acts.
 
 Priscilla had disappeared from the boudoir.  But the dove still kept
 her desolate perch on the peak of the attic window.
-
-
-
-XIX. ZENOBIA'S DRAWING-ROOM
-
+</chapter>
+<chapter>
+<title>XIX. ZENOBIA'S DRAWING-ROOM</title>
 The remainder of the day, so far as I was concerned, was spent in
 meditating on these recent incidents.  I contrived, and alternately
 rejected, innumerable methods of accounting for the presence of Zenobia
@@ -5233,11 +5193,9 @@ to see her?"
 
 She made a step or two into the back drawing-room, and
 called,--"Priscilla!  Dear Priscilla!"
-
-
-
-XX. THEY VANISH
-
+</chapter>
+<chapter>
+<title>XX. THEY VANISH</title>
 Priscilla immediately answered the summons, and made her appearance
 through the door of the boudoir.  I had conceived the idea, which I now
 recognized as a very foolish one, that Zenobia would have taken
@@ -5422,11 +5380,9 @@ had he possessed any heart, or had this glance attained to it.  It
 seemed to rebound, however, from his courteous visage, like an arrow
 from polished steel.  They all three descended the stairs; and when I
 likewise reached the street door, the carriage was already rolling away.
-
-
-
-XXI. AN OLD ACQUAINTANCE
-
+</chapter>
+<chapter>
+<title>XXI. AN OLD ACQUAINTANCE</title>
 Thus excluded from everybody's confidence, and attaining no further, by
 my most earnest study, than to an uncertain sense of something hidden
 from me, it would appear reasonable that I should have flung off all
@@ -5665,11 +5621,9 @@ once got the clew, my subsequent researches acquainted me with the main
 facts of the following narrative; although, in writing it out, my pen
 has perhaps allowed itself a trifle of romantic and legendary license,
 worthier of a small poet than of a grave biographer.
-
-
-
-XXII. FAUNTLEROY
-
+</chapter>
+<chapter>
+<title>XXII. FAUNTLEROY</title>
 Five-and-twenty years ago, at the epoch of this story, there dwelt in
 one of the Middle States a man whom we shall call Fauntleroy; a man of
 wealth, and magnificent tastes, and prodigal expenditure.  His home
@@ -6020,11 +5974,9 @@ But, while the man of show thus meditated,--that very evening, so far
 as I can adjust the dates of these strange incidents,--Priscilla poor,
 pallid flower!--was either snatched from Zenobia's hand, or flung
 wilfully away!
-
-
-
-XXIII. A VILLAGE HALL
-
+</chapter>
+<chapter>
+<title>XXIII. A VILLAGE HALL</title>
 Well, I betook myself away, and wandered up and down, like an exorcised
 spirit that had been driven from its old haunts after a mighty
 struggle.  It takes down the solitary pride of man, beyond most other
@@ -6330,11 +6282,9 @@ true heart-throb of a woman's affection was too powerful for the
 jugglery that had hitherto environed her.  She uttered a shriek, and
 fled to Hollingsworth, like one escaping from her deadliest enemy, and
 was safe forever.
-
-
-
-XXIV. THE MASQUERADERS
-
+</chapter>
+<chapter>
+<title>XXIV. THE MASQUERADERS</title>
 Two nights had passed since the foregoing occurrences, when, in a
 breezy September forenoon, I set forth from town, on foot, towards
 Blithedale.  It was the most delightful of all days for a walk, with a
@@ -6608,11 +6558,9 @@ would have enjoyed!"
 I looked up and found myself nigh Eliot's pulpit, at the base of which
 sat Hollingsworth, with Priscilla at his feet and Zenobia standing
 before them.
-
-
-
-XXV. THE THREE TOGETHER
-
+</chapter>
+<chapter>
+<title>XXV. THE THREE TOGETHER</title>
 Hollingsworth was in his ordinary working-dress.  Priscilla wore a
 pretty and simple gown, with a kerchief about her neck, and a calash,
 which she had flung back from her head, leaving it suspended by the
@@ -6897,11 +6845,9 @@ sink down.  It was as if a great, invisible, irresistible weight were
 pressing her to the earth.  Settling upon her knees, she leaned her
 forehead against the rock, and sobbed convulsively; dry sobs they
 seemed to be, such as have nothing to do with tears.
-
-
-
-XXVI. ZENOBIA AND COVERDALE
-
+</chapter>
+<chapter>
+<title>XXVI. ZENOBIA AND COVERDALE</title>
 Zenobia had entirely forgotten me.  She fancied herself alone with her
 great grief.  And had it been only a common pity that I felt for
 her,--the pity that her proud nature would have repelled, as the one
@@ -7125,11 +7071,9 @@ tragical catastrophe, and thus grew too powerful for the thin sphere of
 slumber that enveloped them.  Starting from the ground, I found the
 risen moon shining upon the rugged face of the rock, and myself all in
 a tremble.
-
-
-
-XXVII. MIDNIGHT
-
+</chapter>
+<chapter>
+<title>XXVII. MIDNIGHT</title>
 It could not have been far from midnight when I came beneath
 Hollingsworth's window, and, finding it open, flung in a tuft of grass
 with earth at the roots, and heard it fall upon the floor.  He was
@@ -7430,11 +7374,9 @@ skinny hands, shaking their night-capped heads, and taking counsel of
 one another's experience what was to be done.
 
 With those tire-women we left Zenobia.
-
-
-
-XXVIII. BLITHEDALE PASTURE
-
+</chapter>
+<chapter>
+<title>XXVIII. BLITHEDALE PASTURE</title>
 Blithedale, thus far in its progress, had never found the necessity of
 a burial-ground.  There was some consultation among us in what spot
 Zenobia might most fitly be laid.  It was my own wish that she should
@@ -7640,11 +7582,9 @@ aught we can see, with the tuft of ranker vegetation that grew out of
 Zenobia's heart, as with all the beauty which has bequeathed us no
 earthly representative except in this crop of weeds.  It is because the
 spirit is inestimable that the lifeless body is so little valued.
-
-
-
-XXIX. MILES COVERDALE'S CONFESSION
-
+</chapter>
+<chapter>
+<title>XXIX. MILES COVERDALE'S CONFESSION</title>
 It remains only to say a few words about myself.  Not improbably, the
 reader might be willing to spare me the trouble; for I have made but a
 poor and dim figure in my own narrative, establishing no separate
@@ -7728,3 +7668,5 @@ entitled to this one word more.  As I write it, he will charitably
 suppose me to blush, and turn away my face:
 
 I--I myself--was in love--with--Priscilla!
+</chapter>
+</book>
