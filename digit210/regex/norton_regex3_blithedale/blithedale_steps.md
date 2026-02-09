@@ -20,5 +20,5 @@
 - Find: `<p>(\n<chapter>.+?)</p>`
 - Replace: `\1`
 6. Wrap xml:
-- Find: 
-- Replace:
+- Find: `.*`
+- Replace: `<book>\0</book>`
