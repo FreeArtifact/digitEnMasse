@@ -22,3 +22,7 @@
 6. Wrap xml:
 - Find: `.*`
 - Replace: `<book>\0</book>`
+7. Table of contents
+- Manual: wrap toc in toc tag
+- Find: `([A-Z]+\.\s{2}.*)$`
+- Replace: `<title>\1</title>`

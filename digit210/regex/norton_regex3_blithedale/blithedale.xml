@@ -1,50 +1,39 @@
-﻿The Blithedale Romance
-</p>
+﻿<book>
+ <title>The Blithedale Romance<title>
 
-<p>
-by
-</p>
+<author>Nathaniel Hawthorne</author>
 
-<p>Nathaniel Hawthorne
-</p>
-
-<p>
-</p>
-
-<p>
-Table of Contents
-</p>
-
-<p>      I.  OLD MOODIE
-     II.  BLITHEDALE
-    III.  A KNOT OF DREAMERS
-     IV.  THE SUPPER-TABLE
-      V.  UNTIL BEDTIME
-     VI.  COVERDALE'S SICK CHAMBER
-    VII.  THE CONVALESCENT
-   VIII.  A MODERN ARCADIA
-     IX.  HOLLINGSWORTH, ZENOBIA, PRISCILLA
-      X.  A VISITOR FROM TOWN
-     XI.  THE WOOD-PATH
-    XII.  COVERDALE'S HERMITAGE
-   XIII.  ZENOBIA'S LEGEND
-    XIV.  ELIOT'S PULPIT
-     XV.  A CRISIS
-    XVI.  LEAVE-TAKINGS
-   XVII.  THE HOTEL
-  XVIII.  THE BOARDING-HOUSE
-    XIX.  ZENOBIA'S DRAWING-ROOM
-     XX.  THEY VANISH
-    XXI.  AN OLD ACQUAINTANCE
-   XXII.  FAUNTLEROY
-  XXIII.  A VILLAGE HALL
-   XXIV.  THE MASQUERADERS
-    XXV.  THE THREE TOGETHER
-   XXVI.  ZENOBIA AND COVERDALE
-  XXVII.  MIDNIGHT
- XXVIII.  BLITHEDALE PASTURE
-   XXIX.  MILES COVERDALE'S CONFESSION
-</p>
+<toc>
+      <title>I.  OLD MOODIE</title>
+     <title>II.  BLITHEDALE</title>
+    <title>III.  A KNOT OF DREAMERS</title>
+     <title>IV.  THE SUPPER-TABLE</title>
+      <title>V.  UNTIL BEDTIME</title>
+     <title>VI.  COVERDALE'S SICK CHAMBER</title>
+    <title>VII.  THE CONVALESCENT</title>
+   <title>VIII.  A MODERN ARCADIA</title>
+     <title>IX.  HOLLINGSWORTH, ZENOBIA, PRISCILLA</title>
+      <title>X.  A VISITOR FROM TOWN</title>
+     <title>XI.  THE WOOD-PATH</title>
+    <title>XII.  COVERDALE'S HERMITAGE</title>
+   <title>XIII.  ZENOBIA'S LEGEND</title>
+    <title>XIV.  ELIOT'S PULPIT</title>
+     <title>XV.  A CRISIS</title>
+    <title>XVI.  LEAVE-TAKINGS</title>
+   <title>XVII.  THE HOTEL</title>
+  <title>XVIII.  THE BOARDING-HOUSE</title>
+    <title>XIX.  ZENOBIA'S DRAWING-ROOM</title>
+     <title>XX.  THEY VANISH</title>
+    <title>XXI.  AN OLD ACQUAINTANCE</title>
+   <title>XXII.  FAUNTLEROY</title>
+  <title>XXIII.  A VILLAGE HALL</title>
+   <title>XXIV.  THE MASQUERADERS</title>
+    <title>XXV.  THE THREE TOGETHER</title>
+   <title>XXVI.  ZENOBIA AND COVERDALE</title>
+  <title>XXVII.  MIDNIGHT</title>
+ <title>XXVIII.  BLITHEDALE PASTURE</title>
+   <title>XXIX.  MILES COVERDALE'S CONFESSION</title>
+</toc>
 
 
 <chapter>
@@ -8688,4 +8677,4 @@ suppose me to blush, and turn away my face:
 </p>
 
 <p>I--I myself--was in love--with--Priscilla!</p>
-</chapter>
+</chapter></book>
