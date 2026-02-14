@@ -19,6 +19,8 @@
             </xsl:matching-substring>
             
             <xsl:non-matching-substring>
+                <!-- Kept at this for a while. I tried separating the template, moving the analyze string, 
+                    and using octal codes to nab the <> signs. I am quite obviously missing something. -->
                 <xsl:analyze-string select="." regex="(^.{{4}}\n\[.+?\]\n^.{{5}})" flags="s">
                     <xsl:matching-substring>
                         <nsp><xsl:value-of select="regex-group(1)"/></nsp>
