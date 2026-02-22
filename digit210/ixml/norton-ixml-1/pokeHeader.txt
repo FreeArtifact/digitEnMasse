@@ -1,0 +1,10 @@
+Cat.
+	
+Power
+	
+Acc.
+	
+PP
+	
+Effect
+Acid Spray	Poison

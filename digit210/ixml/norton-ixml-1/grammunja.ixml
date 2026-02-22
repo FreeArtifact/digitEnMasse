@@ -1,0 +1,24 @@
+genFive: header, move++NL.
+
+header: label++SPP.
+label: letter+,"."?,NL.
+
+move: name, gap, type, gap, category, gap, power, gap, accuracy, gap, pp, gap, effect.
+name: word**space.
+type: word.
+category: word.
+power: dash;digits.
+accuracy: dash;digits.
+pp: digits.
+effect: word++space,".".
+
+-gap: space?,tab.
+-SPP: tab, NL.
+-dash: #2014.
+-space: #20.
+-tab: #9.
+-punc: [P].
+-word: (letter;punc;digits)+.
+-digits: [N]+.
+-letter: [L].
+-NL: -#d?, -#a.
