@@ -1,0 +1,22 @@
+zoomTranscript: section++NLS.
+section: @num, time, text++NL.
+@num: digits, NL.
+time: from, -arrow, to.
+text: permSent.
+
+@from: digits++colCom.
+@to: digits++colCom, NL.
+
+-space: #20.
+-letter: [L].
+-digit: [N].
+-digits: [N]+.
+-punc: [P].
+-NL: -#d?, -#a.
+
+-colCom: ":";",".
+@arrow: -space, -"-"+, -">", -space.
+-NLS: NL,NL.
+
+-permWord: (letter;digit;punc)+.
+-permSent: permWord++space.
