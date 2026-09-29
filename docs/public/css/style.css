@@ -130,8 +130,8 @@ body {
 }
 .splashContainer pre.splash {
   display: inherit;
-  height: 40vh;
-  width: 40vw;
+  height: 400px;
+  width: 500px;
   align-items: center;
   margin-left: 25vw;
   font-family: monospace;
