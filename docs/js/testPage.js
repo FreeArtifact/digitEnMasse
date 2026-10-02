@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import { orbitControls } from "jsm/controls/OrbitControls.js";
+import { OrbitControls } from "jsm/controls/OrbitControls.js";
 
 // Three requirements for Three.JS: renderer, camera, scene object
 const w = window.innerWidth;
@@ -23,7 +23,7 @@ camera.position.z = 2.25;
 const scene = new THREE.Scene();
 
 // Yay orbit controls
-const controls = new orbitControls(camera, renderer.domElement);
+const controls = new OrbitControls(camera, renderer.domElement);
 
 const geo = new THREE.IcosahedronGeometry(1.0, 2);
 const geo2 = new THREE.IcosahedronGeometry(1.25, 2);
