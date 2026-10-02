@@ -16,20 +16,39 @@ const near = 0.1;
 //where it stops rendering
 const far = 10;
 const camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
-camera.position.z = 2;
+camera.position.z = 2.25;
 
 //now scene
 const scene = new THREE.Scene();
 
 const geo = new THREE.IcosahedronGeometry(1.0, 2);
-const mat = new THREE.MeshBasicMaterial({ color: 0xccff });
+const geo2 = new THREE.IcosahedronGeometry(1.25, 2);
+const mat = new THREE.MeshStandardMaterial({
+  color: 0xffffff,
+  flatShading: true,
+});
 const mesh = new THREE.Mesh(geo, mat);
 scene.add(mesh);
+
+const wireMat = new THREE.MeshBasicMaterial({
+  color: 0xffffff,
+  wireframe: true,
+});
+const wireMesh = new THREE.Mesh(geo2, wireMat);
+const wireMeshSmall = new THREE.Mesh(geo, wireMat);
+// mesh.add adds it as a child so I don't have to rotate it separately
+mesh.add(wireMeshSmall);
+scene.add(wireMesh);
+
+const hemiLight = new THREE.HemisphereLight(0xffffff, 0x000000);
+scene.add(hemiLight);
 
 // calls repeated rendering
 function animate(t = 0) {
   requestAnimationFrame(animate);
-  mesh.setScalar(Math.cos(t * 0.001) + 1);
+  mesh.rotation.y = t * 0.0001;
+  wireMesh.rotation.y = t * 0.0001;
+  // mesh.scale.setScalar(Math.cos(t * 0.001) + 1.0);
   renderer.render(scene, camera);
 }
 
