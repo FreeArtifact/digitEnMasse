@@ -1,0 +1,24 @@
+header {
+    position: absolute;
+    display: flex;
+    color: white;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+h1 {
+    margin: 10px 20px;
+    background-color: rgba(210, 180, 140, 0.144);
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+        color: orangered;
+        transition: 0.2s;
+    }
+}

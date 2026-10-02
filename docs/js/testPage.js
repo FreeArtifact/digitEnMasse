@@ -24,6 +24,8 @@ const scene = new THREE.Scene();
 
 // Yay orbit controls
 const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true;
+controls.dampingFactor = 0.03;
 
 const geo = new THREE.IcosahedronGeometry(1.0, 2);
 const geo2 = new THREE.IcosahedronGeometry(1.25, 2);
@@ -56,6 +58,7 @@ function animate(t = 0) {
   wireMesh.rotation.y = t * 0.0001;
   // mesh.scale.setScalar(Math.cos(t * 0.001) + 1.0);
   renderer.render(scene, camera);
+  controls.update();
 }
 
 animate();
