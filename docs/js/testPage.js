@@ -1,4 +1,5 @@
 import * as THREE from "three";
+import { orbitControls } from "jsm/controls/OrbitControls.js";
 
 // Three requirements for Three.JS: renderer, camera, scene object
 const w = window.innerWidth;
@@ -21,6 +22,9 @@ camera.position.z = 2.25;
 //now scene
 const scene = new THREE.Scene();
 
+// Yay orbit controls
+const controls = new orbitControls(camera, renderer.domElement);
+
 const geo = new THREE.IcosahedronGeometry(1.0, 2);
 const geo2 = new THREE.IcosahedronGeometry(1.25, 2);
 const mat = new THREE.MeshStandardMaterial({
@@ -36,11 +40,13 @@ const wireMat = new THREE.MeshBasicMaterial({
 });
 const wireMesh = new THREE.Mesh(geo2, wireMat);
 const wireMeshSmall = new THREE.Mesh(geo, wireMat);
+// So it doesn't flicker inside the other mesh
+wireMeshSmall.scale.setScalar(1.001);
 // mesh.add adds it as a child so I don't have to rotate it separately
 mesh.add(wireMeshSmall);
 scene.add(wireMesh);
 
-const hemiLight = new THREE.HemisphereLight(0xffffff, 0x000000);
+const hemiLight = new THREE.HemisphereLight(0xab006c, 0xe68e00);
 scene.add(hemiLight);
 
 // calls repeated rendering
