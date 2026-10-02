@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Test Page</title>
+    <!-- import map source: https://www.youtube.com/watch?v=XPhAR1YdD6o -->
+    <script type="importmap">
+			{
+				"imports": {
+					"three": "https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.module.js",
+          "jsm/": "https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/"
+        }
+			}
+		</script>
+</head>
+<body>
+    <header>
+        <h1>JavaScript Testing Page</h1>
+    </header>
+    <main>
+        <h1>Click it</h1>
+        <script type="module" src="js/testPage.js"></script>
+        <!-- Eyeball that squishes and blinks -- comic shader -->
+    </main>
+</body>
+</html>

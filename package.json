@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@types/npm": "^7.19.3"
+  },
+  "devDependencies": {
+    "@types/three": "^0.186.0"
+  }
+}
