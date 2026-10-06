@@ -2,7 +2,7 @@ import * as THREE from "three";
 import { OrbitControls } from "jsm/controls/OrbitControls.js";
 
 // Three requirements for Three.JS: renderer, camera, scene object
-const w = window.innerWidth;
+const w = window.innerWidth * 0.66;
 const h = window.innerHeight;
 const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize(w, h);
@@ -56,9 +56,53 @@ function animate(t = 0) {
   requestAnimationFrame(animate);
   mesh.rotation.y = t * 0.0001;
   wireMesh.rotation.y = t * 0.0001;
+  meshNew.rotation.y = t * -0.00005;
   // mesh.scale.setScalar(Math.cos(t * 0.001) + 1.0);
   renderer.render(scene, camera);
   controls.update();
 }
 
+// animate();
+
+// ------------------------------------------------------------
+
+function init() {
+  var fieldset = document.getElementsByTagName("input");
+  for (var i = 0; i < fieldset.length; i++) {
+    fieldset[i].addEventListener("click", toggle, false);
+  }
+}
+
+function toggle() {
+  var id = this.id;
+
+  switch (id) {
+    case "CHARtoggle":
+      {
+        var chars = document.getElementsByClassName("subject");
+        for (var i = 0; i < chars.length; i++) {
+          chars[i].classList.toggle("on");
+        }
+      }
+      break;
+  }
+}
+
+const matNew = new THREE.MeshStandardMaterial({
+  color: 0xffffff,
+  flatShading: true,
+});
+const geoNew = new THREE.BoxGeometry(2.0, 2);
+const meshNew = new THREE.Mesh(geoNew, matNew);
+scene.add(meshNew);
+meshNew.visible = false;
+
+const cubeToggle = document.getElementById("SQtoggle");
+cubeToggle.addEventListener("change", () => {
+  meshNew.visible = cubeToggle.checked;
+});
+
+window.onload = init;
+
+// ------------------------------------------------------------
 animate();
