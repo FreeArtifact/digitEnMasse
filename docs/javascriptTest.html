@@ -26,8 +26,7 @@
         <script type="module" src="js/testPage.js"></script>
         <!-- Eyeball that squishes and blinks -- comic shader -->
         <div class="left-side">
-            <p>toggle <span class="subject">me</span></p>
-            <div>
+            <p>highlight <span class="subject">me</span></p>
             <fieldset>
                 <legend>Click to Do Things:</legend>
                 <input type="checkbox" id="CHARtoggle"/>
@@ -36,7 +35,32 @@
                 <span>Square</span>
                 <!-- Several more checkboxes -->
             </fieldset>
-        </div>
+            <!-- Thank you Hunor for the clock JS tutorial: https://www.youtube.com/watch?v=ULomsOSk4JA  -->
+            <svg width="300" height="300" viewbox="-100 -100 200 200">
+                <circle class="minute_marker" cx="0" cy="0" r="90" pathlength="60"/>
+                <circle class="hour_marker" cx="0" cy="0" r="90" pathlength="60"/>
+                
+                <text id="watch_text" class="watch_text" x="45" y="5">00</text>
+
+                <g id="hour_hand">
+                  <line class="hand" x1="0" y1="0" x2="0" y2="-50"/>
+                  <line class="hand hand--thick" x1="0" y1="-12" x2="0" y2="-50"/>
+                </g>
+
+                <g id="minute_hand">
+                  <line class="hand" x1="0" y1="0" x2="0" y2="-80"/>
+                  <line class="hand hand--thick" x1="0" y1="-12" x2="0" y2="-80"/>
+                </g>
+
+                <g id="second_hand">
+                  <line class="hand hand--second" x1="0" y1="12" x2="0" y2="-80"/>
+                </g>
+
+                <circle class="center" r="3"/>
+            </svg>
+            <!-- Must be after svg build -->
+            <script src="js/clock.js"></script>
+        
         </div>    
         
     </main>

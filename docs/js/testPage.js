@@ -6,6 +6,7 @@ const w = window.innerWidth * 0.66;
 const h = window.innerHeight;
 const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize(w, h);
+
 // other option: create canvas element in html (not doing that though)
 document.body.appendChild(renderer.domElement);
 
